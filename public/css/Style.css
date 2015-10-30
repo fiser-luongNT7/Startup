@@ -1,0 +1,54 @@
+/* Login*/
+*{ margin: 0; padding: 0}
+body{background-color:#70DBDB}
+.nameApp{
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+	font-size: 70px;
+	padding: 50px 50px;
+	color: #FCFCFC;
+}
+.form{
+	height:700;
+	width: 600px; 
+	margin: 0 auto; 
+	padding-left: 10px;
+	font-size: 20px;
+	color: #434343;
+
+	}
+.input{
+	height: 30px;
+	width: 80%; 
+	margin-top: 20px;
+	font-size: 16px; 
+	padding:5px 5px; 
+	border: none;
+	}
+.checkbox{
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+	background-color: #FCFCFC
+}
+.submit{
+	height: 40px;
+	width: 82%; 
+	position: relative;
+	font-size: 20px;
+	color:#5D5D5D
+}
+a:link {
+color:#00FF00; 
+font-size:20px;
+text-decoration:none
+}
+a:hover {
+color:#FF00FF;
+font-size:1.0em;
+text-decoration:none
+}
+.Register{
+	margin-left: 47%;
+}

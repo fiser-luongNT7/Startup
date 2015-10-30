@@ -1,0 +1,26 @@
+<?= $this->tag->getDoctype()?>
+<html>
+	<head>
+		<title> Login</title>
+		<meta charset = "UTF-8">
+		<link rel= "stylesheet" href = "public/css/Style.css" >
+	</head>
+	<body>
+	<div class = "nameApp">
+	<p>My First App</p>
+	</div>
+	<div class = "form">
+		<input class = "input" type = "text" placeholder = "Account" value = "<?php $account ?>">
+		<input class = "input" type = "password" placeholder = "Password" value = "<?php $password ?>">			<br>
+		<input  class = "checkbox" type = "checkbox" name = "Remember" value = "<?php $remember?>"> Remember me
+		<br>	
+		<br>
+	<input class = "submit" type = "submit" name = "Login" value = "Login"> <br>
+	<div class = "Register">
+	<br><br>
+	<a href = ""> Register</a>|
+	<a href = ""> Forgot password</a>
+	</div>
+		</div>
+	</body>
+</html>
